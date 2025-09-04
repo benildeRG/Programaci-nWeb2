@@ -14,3 +14,5 @@ if(numusuario >= 10){
 // }else{
     // console.error("Error en puerto");
 // }
+let datos = 15 != 15;
+console.log(datos);
