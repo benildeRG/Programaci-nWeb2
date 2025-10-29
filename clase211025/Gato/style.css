@@ -1,0 +1,91 @@
+/* Estilo general */
+body {
+    font-family: "Audiowide", cursive;
+    background: linear-gradient(135deg, #deb616, #e11f4d, #c99525);
+    color: #fff;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #69f988;
+    text-shadow: 2px 2px 8px #741dd8;
+}
+
+/* Tablero */
+.tablero {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+/* Celdas */
+.celda {
+    font-size: 2.5rem;
+    background: #c4da4d;
+    color: #3a0ad7;
+    border: 3px solid #dc6c11;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.celda:hover {
+    background: #8055e4;
+    color: #20cd6e;
+    transform: scale(1.05);
+}
+
+/* Colores para X y O */
+.celda.x {
+    color: #00adb5;
+}
+
+.celda.o {
+    color: #f8b500;
+}
+
+/* Celdas ganadoras */
+.celda.ganador {
+    background: #21e6c1 !important;
+    color: #000;
+    box-shadow: 0 0 20px #21e6c1;
+}
+
+/* Botones */
+.controles {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+button {
+    background: #e94560;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #f8b500;
+    transform: scale(1.1);
+}
+
+/* Resultado */
+.resultado {
+    font-size: 1.3rem;
+    margin-top: 10px;
+    text-shadow: 1px 1px 4px #5c76c9;
+}

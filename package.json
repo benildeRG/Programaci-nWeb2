@@ -1,0 +1,22 @@
+{
+  "name": "web2",
+  "version": "1.0.0",
+  "description": "subir archivo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benildeRG/Programaci-nWeb2.git"
+  },
+  "keywords": [
+    "gitBen4*"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benildeRG/Programaci-nWeb2/issues"
+  },
+  "homepage": "https://github.com/benildeRG/Programaci-nWeb2#readme"
+}
